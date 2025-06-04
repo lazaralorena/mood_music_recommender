@@ -30,7 +30,7 @@ A web application that recommends music based on your mood, built with Flask and
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mood-music-recommender.git
+git clone https://github.com/lazaralorena/mood-music-recommender.git
 cd mood-music-recommender
 ```
 
