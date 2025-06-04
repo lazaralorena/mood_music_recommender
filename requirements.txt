@@ -1,0 +1,11 @@
+Flask==2.0.1
+Flask-SQLAlchemy==2.5.1
+Flask-Cors==3.0.10
+SQLAlchemy==1.4.23
+Werkzeug==2.0.3
+Flask-Login==0.6.2
+Flask-Limiter==3.3.0
+bcrypt==4.0.1
+Flask-WTF==1.1.1
+requests==2.31.0
+python-dotenv==1.0.0 
