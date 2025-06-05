@@ -52,7 +52,18 @@ pip install -r requirements.txt
 
 ```bash
 cp .env.example .env
-# Edit .env with your preferred text editor
+# Flask Configuration
+FLASK_APP=app.py
+FLASK_ENV=development
+# Generate a secure key using: python -c "import secrets; print(secrets.token_hex(32))"
+SECRET_KEY=replace_this_with_a_secure_random_key
+
+# Database Configuration
+DATABASE_URL=sqlite:///mood_music.db
+
+# Rate Limiting
+RATELIMIT_DEFAULT=200 per day
+RATELIMIT_STORAGE_URL=memory://
 ```
 
 5. Initialize the database:
