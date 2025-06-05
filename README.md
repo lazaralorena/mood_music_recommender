@@ -37,7 +37,7 @@ cd mood-music-recommender
 2. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -142,7 +142,7 @@ pre-commit install
 
 For security issues, please:
 1. **DO NOT** create a public issue
-2. Email security concerns to [your-email]
+2. Email security concerns to [lazaracamila@gmail.com]
 3. Include detailed information about the vulnerability
 
 ## License
