@@ -34,6 +34,7 @@ def init_db():
             Music(title='River Flows in You', artist='Yiruma', mood='relaxed', url='https://www.youtube.com/watch?v=7maJOI3QMu0'),
             Music(title='Weightless', artist='Marconi Union', mood='relaxed', url='https://www.youtube.com/watch?v=UfcAVejslrU'),
             Music(title='Experience', artist='Ludovico Einaudi', mood='relaxed', url='https://www.youtube.com/watch?v=_VONMkKkdf4'),
+            Music(title='Relaxing Ambient', artist='Nature Sounds', mood='relaxed', url='https://www.youtube.com/watch?v=oCcks-fwq2c'),
             Music(title='All of Me', artist='John Legend', mood='romantic', url='https://www.youtube.com/watch?v=450p7goxZqg'),
             Music(title='Perfect', artist='Ed Sheeran', mood='romantic', url='https://www.youtube.com/watch?v=2Vv-BfVoq4g'),
             Music(title='At Last', artist='Etta James', mood='romantic', url='https://www.youtube.com/watch?v=S-cbOl96RFM'),
@@ -42,12 +43,10 @@ def init_db():
             Music(title='Strobe', artist='Deadmau5', mood='focused', url='https://www.youtube.com/watch?v=tKi9Z-f6qX4'),
             Music(title='Brain Waves', artist='Alpha Waves', mood='focused', url='https://www.youtube.com/watch?v=WPni755-Krg'),
             Music(title='Focus', artist='Hania Rani', mood='focused', url='https://www.youtube.com/watch?v=kFRdoYfZYUY'),
-            # Nostalgic songs
             Music(title='Sweet Dreams', artist='Eurythmics', mood='nostalgic', url='https://www.youtube.com/watch?v=qeMFqkcPYcg'),
             Music(title='Take On Me', artist='a-ha', mood='nostalgic', url='https://www.youtube.com/watch?v=djV11Xbc914'),
             Music(title='Billie Jean', artist='Michael Jackson', mood='nostalgic', url='https://www.youtube.com/watch?v=Zi_XLOBDo_Y'),
             Music(title='Sweet Child O Mine', artist='Guns N Roses', mood='nostalgic', url='https://www.youtube.com/watch?v=1w7OgIMMRc4'),
-            # Chill songs
             Music(title='Waves', artist='Mr Probz', mood='chill', url='https://www.youtube.com/watch?v=pUjE9H8QlA4'),
             Music(title='Midnight City', artist='M83', mood='chill', url='https://www.youtube.com/watch?v=dX3k_QDnzHE'),
             Music(title='Breathe', artist='Télépopmusik', mood='chill', url='https://www.youtube.com/watch?v=vyut3GyQtn0'),
